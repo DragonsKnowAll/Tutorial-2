@@ -1,14 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BoxMover
     - CameraScript
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
+    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
+    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -74,6 +80,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14884}
     - Class: 114
       Script: {instanceID: 15032}
+    - Class: 114
+      Script: {instanceID: 18800}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -511,7 +519,7 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: 915fa86f0b604b652956231502978885
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -593,7 +601,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoxMover
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/UNITY STUFF/Studstill_Diana_DIG3480_Tutorial_2/Tutorial 2.exe
+  playerPath: D:/UNITY STUFF/Tutorial 2/Tutorial 2 Challenge build 1/Tutorial 2.exe
