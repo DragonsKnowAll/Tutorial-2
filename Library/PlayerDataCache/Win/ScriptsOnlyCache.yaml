@@ -58,7 +58,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -71,17 +77,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12044}
     - Class: 114
-      Script: {instanceID: 12804}
+      Script: {instanceID: 12384}
     - Class: 114
-      Script: {instanceID: 13948}
+      Script: {instanceID: 12806}
     - Class: 114
-      Script: {instanceID: 14396}
+      Script: {instanceID: 13950}
     - Class: 114
-      Script: {instanceID: 14884}
+      Script: {instanceID: 14398}
     - Class: 114
-      Script: {instanceID: 15032}
+      Script: {instanceID: 14886}
     - Class: 114
-      Script: {instanceID: 18800}
+      Script: {instanceID: 15034}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -247,6 +253,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoxMover
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -519,7 +531,7 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
-      Hash: 915fa86f0b604b652956231502978885
+      Hash: 634a9075edefdb793145d0e5713cbbbe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -601,13 +613,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e08dc097b830ae769e9cdd9b04e903ac
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BoxMover
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/UNITY STUFF/Tutorial 2/Tutorial 2 Challenge build 1/Tutorial 2.exe
+  playerPath: D:/UNITY STUFF/Tutorial 2/Challenge 2 Spr build/Tutorial 2.exe
